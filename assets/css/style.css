@@ -1,0 +1,155 @@
+ul{
+    list-style: none;
+}
+@keyframes sajad {
+   0%{color: white;} 
+   50%{color: black;}
+   100%{color: rgb(223, 26, 164);}
+}
+header{
+    height: 60px;
+    background: black;
+}
+main{
+    height: 3500px;
+    background: white;
+}
+.picture{
+    background:#8b8a84 url("../images/hero-bg.jpg") center 57px no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed; 
+}
+.sajad{
+    color: white;
+    animation: sajad 6s linear infinite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    transition: font-size 3s; color: 3s;
+
+}
+
+.self{
+    font-size: medium;
+}
+.text{
+    font-size: xxx-large;
+    color: #00000012;
+    font-family: system-ui;
+    text-align: center;
+    padding: 50px;
+}
+.text1{
+    text-align: center;
+    color: #000000bd;
+    width: 100%;
+}
+.top-50{
+    top: 35%!important;
+}
+.super{
+    width: 58%;
+}
+.text2{
+    padding: 20px;
+}
+.boxx{
+    width: 97%;
+}
+.img{
+    background-image: url(../images/me.jpg);
+    background-size: cover;
+    width: 34%;
+    height: 620px; 
+    margin: 0px 34px; 
+}
+li{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+       color: rgb(248, 168, 18);
+}
+.super-menu1{
+    margin: 0px 50px;
+    padding: 0px 50px;
+}
+.nav-bar2{
+    padding: 27px 41px;
+    display: flex;
+    align-items: flex-start;
+    width: 815px;
+    padding: 27px 41px;
+}
+.smile{
+    color: rgba(0, 128, 0, 0.781);
+}
+.clock{
+    color: rgb(96, 158, 238);
+}
+.award{
+    color: rgb(255, 166, 0);
+}
+.number{
+    margin-left: 72px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 10px;
+}
+.progress{
+    margin-bottom: 10px;
+}
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume{
+    margin: 50px 0px;
+}
+.first-resume{
+    font-size: xxx-large;
+    color: #00000012;
+    font-family: system-ui;
+    text-align: center;
+    padding: 80px;
+    padding-bottom: 40px;
+}
+.resume1{
+    top: 55%;
+    right: 43%;
+}
+.boxe{
+    width: 90%;
+    margin: auto;
+}
+.htext{
+    font-size: xx-large;
+}
+.h2text{
+    font-size: large;
+    color: orange;
+    padding: 15px;
+}
+.ptext{
+    font-size: large;
+    font-style: italic;
+    padding: 0px 13px;
+    color: grey;
+}
+.ull{
+    list-style: disc;
+    font-size: initial;
+    font-family: cursive;
+    color: grey;
+}
+.h4t{
+    background-color: #e8e7e7c7;
+    width: fit-content;
+    font-size: inherit;
+    font-family: cursive;
+    margin: 0px 15px;
+}
