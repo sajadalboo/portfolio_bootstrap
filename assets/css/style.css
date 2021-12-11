@@ -119,7 +119,7 @@ a:hover{
     padding-bottom: 40px;
 }
 .resume1{
-    top: 55%;
+    top: 10%;
     right: 43%;
 }
 .boxe{
@@ -152,4 +152,14 @@ a:hover{
     font-size: inherit;
     font-family: cursive;
     margin: 0px 15px;
+}
+.new{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.lead{
+    list-style: disc;
+    font-size: large;
+    font-family: "Open Sans", sans-serif;
+    color: #666565;
 }
