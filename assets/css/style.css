@@ -214,11 +214,7 @@ p{
 .text-warning{
     font-size: larger;
 }
-i{
-    font-size: 28pt;
-    color: orange;
-    padding: 15px;
-}
+
 a{
     color: black;
 }
@@ -256,3 +252,20 @@ h4{
     text-align: center;
     color: #000000ba;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(255, 217, 147);
+    margin: auto;
+}
+.icon i{
+    font-size: 28pt;
+    color: orange;
+}
+
+
+
