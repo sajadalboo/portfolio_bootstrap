@@ -1,11 +1,6 @@
 ul{
     list-style: none;
 }
-@keyframes sajad {
-   0%{color: white;} 
-   50%{color: black;}
-   100%{color: rgb(223, 26, 164);}
-}
 header{
     height: 60px;
     background: black;
@@ -14,6 +9,11 @@ main{
     height: 3500px;
     background: white;
 }
+@keyframes typing{
+    0% {width: 0}
+    100% {width: 390px}
+}
+
 .picture{
     background:#8b8a84 url("../images/hero-bg.jpg") center 57px no-repeat;
     background-size: cover;
@@ -22,11 +22,13 @@ main{
     background-attachment: fixed; 
 }
 .sajad{
-    color: white;
-    animation: sajad 6s linear infinite;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xxx-large;
-    transition: font-size 3s; color: 3s;
+    animation: typing 3s infinite alternate 2s steps(18);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid rgb(51, 238, 34);
 }
 .self{
     font-size: medium;
@@ -47,7 +49,8 @@ main{
     top: 44%!important;
 }
 .super{
-    width: 58%;
+    width: 50%;
+    margin: auto;
 }
 .text2{
     padding: 20px;
@@ -83,7 +86,7 @@ a:hover{
 .nav-bar2{
     display: flex;
     align-items: flex-start;
-    width: 87%;
+    width: 97%;
     margin: auto;
 }
 .smile{
@@ -181,13 +184,13 @@ p{
 }
 .first-service{
     text-align: center;
-    color: rgb(214, 212, 212);
+    color: #00000012;
     font-size: xxx-large;
 }
 .service1{
     FONT-SIZE: 24PT;
     RIGHT: 41%;
-    BOTTOM: 44%;
+    BOTTOM: 45%;
     color: #000000ba;
     padding: 24px;
 }
@@ -266,6 +269,5 @@ h4{
     font-size: 28pt;
     color: orange;
 }
-
 
 
