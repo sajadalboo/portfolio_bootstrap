@@ -123,7 +123,7 @@ a:hover{
     padding-bottom: 40px;
 }
 .resume1{
-    top: 5%;
+    top: 3%;
     right: 43%;
     color: #5e5c5c;
 }
@@ -190,7 +190,7 @@ p{
 .service1{
     FONT-SIZE: 24PT;
     RIGHT: 41%;
-    BOTTOM: 45%;
+    BOTTOM: 68%;
     color: #000000ba;
     padding: 24px;
 }
@@ -217,7 +217,6 @@ p{
 .text-warning{
     font-size: larger;
 }
-
 a{
     color: black;
 }
@@ -240,7 +239,7 @@ h4{
 }
 .PORT{
     right: 42%;
-    bottom: 2%;
+    bottom: 43%;
     font-size: 24pt;
     color: #000000ba;
 }
@@ -269,5 +268,23 @@ h4{
     font-size: 28pt;
     color: orange;
 }
-
-
+#pills-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.bt{
+    border: 2px solid orange;
+    width: 58px;
+    text-align: center;
+    color: orange;
+    background: white;
+    height: 40px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
