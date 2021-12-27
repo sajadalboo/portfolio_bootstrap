@@ -125,11 +125,11 @@ a:hover{
     color: #00000012;
     font-family: system-ui;
     text-align: center;
-    padding: 80px;
+
     padding-bottom: 40px;
 }
 .resume1{
-    top: 3%;
+    top: 1%;
     right: 43%;
     color: #5e5c5c;
 }
@@ -151,7 +151,7 @@ a:hover{
 .h2text{
     font-size: large;
     color: orange;
-    padding: 15px;
+  
 }
 .ptext{
     font-size: large;
@@ -200,7 +200,7 @@ p{
 .service1{
     FONT-SIZE: 24PT;
     RIGHT: 41%;
-    BOTTOM: 54%;
+    top: 27%;
     color: #000000ba;
     padding: 24px;
 }
@@ -212,16 +212,15 @@ p{
 .fix{
     padding-top: 48px;
 }
-.col{
+.coll{
     border: 1px solid rgb(255, 255, 255);
     box-shadow: inset 0 0 7px 4px #f6f2f2;
     background: #ffffff00;
-    text-align: center;
-    /* margin-right: 20px; */
+    text-align: center; 
     height: 330px;
-    /* padding: 15px; */
+    
 }
-.col:hover{
+.coll:hover{
     border: 1px solid orange;
 }
 .text-warning{
@@ -249,7 +248,7 @@ h4{
 }
 .PORT{
     right: 42%;
-    bottom: 19%;
+    bottom: 39%;
     font-size: 24pt;
     color: #000000ba;
 }
@@ -271,8 +270,9 @@ h4{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: rgb(255, 217, 147);
+    background: rgb(242 208 145);
     margin: auto;
+    margin-top: 40px;
 }
 .icon i{
     font-size: 28pt;
@@ -393,6 +393,19 @@ h4{
     height: 235px;
     overflow: hidden;
 }
-/* .box-zoom-in4:hover .info{
+.box-zoom-in4:hover .info{
     display: block;
-} */
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: solid 2px black;
+}
+.box-zoom-in5{
+    width: 357px;
+    height: 529px;
+    overflow: hidden;
+}
+.box-zoom-in5hover .info{
+    display: block;
+}
