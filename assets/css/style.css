@@ -353,7 +353,7 @@ h4{
   }
 .zoom{
     transform: scale(1);
-    transition: transform 3s;
+    transition: transform 1.5s;
 
 }
 .zoom:hover{
@@ -370,14 +370,13 @@ h4{
 
 .info{
     display: none;
-
 }
 .box-zoom-in2{
     width: 350px;
     height: 250px;
     overflow: hidden;
 }
-.box-zoom-in2:hover .info{
+.row:hover .info{
     display: block;
 }  
 .box-zoom-in3{
@@ -408,4 +407,23 @@ h4{
 }
 .box-zoom-in5hover .info{
     display: block;
+}
+.box-zoom-in6{
+    width: 357px;
+    height: 529px;
+    overflow: hidden;
+}
+.box-zoom-in6hover .info{
+    display: block;
+}
+#info{
+    width: 349px;
+    height: 60px;
+}
+#col{
+    border: 1px solid #f4f0f0;
+    box-shadow: 1px -2px 2px 0px #f0ecec;
+    margin: 0px 10px;
+    border-radius: 5px;
+    height: 400px;
 }
