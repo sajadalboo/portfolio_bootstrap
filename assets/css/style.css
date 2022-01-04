@@ -5,7 +5,7 @@ header{
 }
 main{
     height: 3500px;
-    background: white;
+    background: var(--bs-white);
 }
 ul{
     list-style: none;
@@ -197,26 +197,23 @@ a:hover{
 .first-service{
     text-align: center;
     color: #00000012;
-    font-size: xxx-large;
+    font-size: 36pt;
+    padding: 50px;
 }
 .service1{
     FONT-SIZE: 24PT;
     RIGHT: 43%;
-    top: 22%;
+    top: 25%;
     color: #000000ba;
 }
 .text-center{
-    right: 43%;
-    bottom: 22%;
+    text-align: center;
     color: #000000ba;
-}
-.fix{
-    padding-top: 48px;
 }
 .coll{
     border: 1px solid rgb(255, 255, 255);
     box-shadow: inset 0 0 7px 4px #f6f2f2;
-    background: #ffffff00;
+    background: var(--bs-body-bg);
     text-align: center; 
     height: 330px;
     margin-left: 20px;
@@ -243,22 +240,20 @@ h4{
 }
 .first-port{
     text-align: center;
-    color: rgb(214, 212, 212);
-    font-size: 36PT;
-    padding: 17px;
+    color:  rgb(234 231 231);
+    font-size: 34PT;
+    padding: 51px;
 }
 .PORT{
-    right: 41%;
-    TOP: 45%;
-    font-size: 24pt;
+    right: 40%;
+    TOP: 9%;
+    font-size: 26pt;
     color: #000000ba;
-    PADDING: 14PX;
 }
 .text-center1{
     text-align: center;
     color: #000000ba;
-    margin: 30px;
-    
+
 }
 .text-center2{
     margin-top: -8px;
@@ -288,12 +283,6 @@ h4{
     animation: transform 3s linear 3s infinite ;
 }
 
-
-
-/* .box-zoom-in:hover .info-item{
-    display: block!important;
-} */
-
 .bt{
     border: 2px solid orange;
     width: 58px;
@@ -307,23 +296,24 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .PRICE{
-    top: 600px;
+    top: 0px;
     right: 44%;
     font-size: 36pt;
     color: #eae6e6;
 }
 .PRI{
-    top: 640px;
-    right: 46%;
+    top: 43px;
+    right: 47%;
 }
 .pos{
-    top: 685px;
-    right: 28%;
+    top:100px;
+    right: 31%;
 }
 .portfolia{
-    min-height: 1215px;
+    min-height: 1105px;
 }
 .container-pricing {
 
@@ -402,6 +392,7 @@ h4{
     margin: 0px 10px;
     border-radius: 5px;
     box-shadow: 1px -2px 2px 0px #f0ecec;
+    height: 400px;
 }
 h3{
     background: rgb(236, 233, 233);
@@ -434,6 +425,125 @@ h3{
     display: inline-block;
     color: white;
     background: orange;
-    padding: 7px 32px;
+    padding: 3px 16px;
     border-radius: 5px;
+}
+.contact{
+    padding: 50px;
+}
+.con{
+    font-size: 36PT;
+    align-items: center;
+    width: 100%;
+    color: #e4e3e3;
+    FONT-FAMILY: -webkit-body;
+}
+.me{
+    RIGHT: 40%;
+    TOP: 38%;
+    FONT-SIZE: 26PT;
+    color: black;
+}
+.sin{
+    padding: 20px;
+}
+.top{
+    height: 180px;
+    box-shadow: 0px 0px 5px 1px #e4e0e0;
+    background-color: var(--bs-white);
+}
+.bot{
+    height: 150px;
+    box-shadow: 0px 0px 5px 1px #e4e0e0;
+    background-color: var(--bs-white);
+    margin: 20px 10px;
+    margin-left: 0%;
+}
+.right{
+    height: 430px;
+    box-shadow: 0px 0px 5px 1px #e6e6e6;
+    background-color: var(--bs-white);
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.inp{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e9e6e6;
+    padding: 10px;
+}
+.first-col, .second-col{
+    padding: 10px 15px;
+   
+}
+.type{
+    width: 100%;
+    height: 40px;
+    margin-top: 7px;
+    border: 1px solid #e4e1e1;
+    padding: 10px;
+}
+.div{
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.area{
+    width: 100%;
+    border: 1px solid #dad7d7;
+    padding: 10px;
+}
+.button{
+    background: rgb(247, 179, 54);
+    padding: 10px 24px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    border: navajowhite;
+}
+.but{
+    text-align: center;
+    padding: 5px;
+}
+.mini-b{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 166, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+.soci{
+    font-size: 14pt;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+.boxi{
+    margin-top: 20px;
+}
+.social-link{
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.twitter, .instagram, .facebook, .linkdin, .skyp, .google{
+    width: 50px;
+    height: 50px;
+    background: #e6e3e300;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: 1px solid #d2d1d1;
+    padding: 6px;
+    margin: 6px;
+    color: rgb(168, 168, 197);
 }
