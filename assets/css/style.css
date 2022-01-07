@@ -203,7 +203,7 @@ a:hover{
 .service1{
     FONT-SIZE: 24PT;
     RIGHT: 43%;
-    top: 25%;
+    top: 24%;
     color: #000000ba;
 }
 .text-center{
@@ -448,12 +448,12 @@ h3{
     padding: 20px;
 }
 .top{
-    height: 180px;
+    height: 200px;
     box-shadow: 0px 0px 5px 1px #e4e0e0;
     background-color: var(--bs-white);
 }
 .bot{
-    height: 150px;
+    height: 175px;
     box-shadow: 0px 0px 5px 1px #e4e0e0;
     background-color: var(--bs-white);
     margin: 20px 10px;
@@ -520,6 +520,7 @@ h3{
     color: gray;
     text-align: center;
     margin-top: 10px;
+    padding: 10px;
 }
 .boxi{
     margin-top: 20px;
@@ -530,8 +531,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-   
+    flex-direction: row;  
 }
 .twitter, .instagram, .facebook, .linkdin, .skyp, .google{
     width: 50px;
@@ -546,4 +546,31 @@ h3{
     padding: 6px;
     margin: 6px;
     color: rgb(168, 168, 197);
+}
+.cir{
+    background-color: rgba(255, 166, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.font{
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.number{
+    color: gray;
+    text-align: center;
+    margin: auto;
+}
+.oran{
+    color: orange;
+    font-size: 16pt;
+}
+footer{
+    height: 400px;
+    background: black;
 }
